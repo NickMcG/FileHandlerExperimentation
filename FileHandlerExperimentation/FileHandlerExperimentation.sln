@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandlerExperimentation", "FileHandlerExperimentation\FileHandlerExperimentation.csproj", "{BADA3965-4AD6-48EE-A0B5-049FA238FD4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E985B01A-01B8-44BC-B0D2-A12CE91BF289}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\nuget.config = .nuget\nuget.config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandlerExperimentation.Specs", "FileHandlerExperimentation.Specs\FileHandlerExperimentation.Specs.csproj", "{768AE792-04B6-4387-BAAB-F8DE834CDC6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B06D848-1293-48B2-85FD-2DF25F668E46}"
+	ProjectSection(SolutionItems) = preProject
+		Debug.testsettings = Debug.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-p-vir-m-02:8080/tfs/directsupplycollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FileHandlerExperimentation\\FileHandlerExperimentation.csproj
+		SccProjectName1 = FileHandlerExperimentation
+		SccLocalPath1 = FileHandlerExperimentation
+		SccProjectUniqueName2 = FileHandlerExperimentation.Specs\\FileHandlerExperimentation.Specs.csproj
+		SccProjectName2 = FileHandlerExperimentation.Specs
+		SccLocalPath2 = FileHandlerExperimentation.Specs
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADA3965-4AD6-48EE-A0B5-049FA238FD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADA3965-4AD6-48EE-A0B5-049FA238FD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADA3965-4AD6-48EE-A0B5-049FA238FD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADA3965-4AD6-48EE-A0B5-049FA238FD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768AE792-04B6-4387-BAAB-F8DE834CDC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768AE792-04B6-4387-BAAB-F8DE834CDC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768AE792-04B6-4387-BAAB-F8DE834CDC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768AE792-04B6-4387-BAAB-F8DE834CDC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

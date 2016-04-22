@@ -1,0 +1,36 @@
+﻿@{
+	ViewBag.Title = "Multiple File Upload";
+}
+
+<h2>@ViewBag.Title</h2>
+<div class="row">
+	Go <a href="@Url.Action("Index")">here</a> to upload just a single file.
+</div>
+<form class="form-horizontal" action="@Url.Action("Upload")" method="POST" enctype="multipart/form-data">
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="file1">File1</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="file" name="file1" id="file1" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="file2">File2</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="file" name="file2" id="file2" />
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-2">
+			<label for="file3">File3</label>
+		</div>
+		<div class="col-sm-10">
+			<input type="file" name="file3" id="file3" />
+		</div>
+	</div>
+
+	<input id="submit-button" type="submit" />
+</form>
